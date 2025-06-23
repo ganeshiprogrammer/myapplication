@@ -1,6 +1,7 @@
 
 import './App.css'
 import Expense from './components/Expense'
+import Expensetracker from './components/Expensetracker'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       {/* <Expense></Expense> */}
 
       <Expense/>
+      <Expensetracker/>
     </div>
   )
 }
